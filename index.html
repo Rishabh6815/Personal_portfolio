@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5525a7ddff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" alt="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h2>Hi, I'm <span>Rishabh</span><br>from India</h2>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.png">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hi, I'm Rishabh
+                    Since beginning my journey as a software engineer in year 2024
+                    I have done Projects with my skills in HTML, CSS, JavaScript, React.js,
+                    Node.js and C++ I'm quietly confident, naturally curious, and perpetually 
+                    working on improving my chops. I like to code things from scratch, and 
+                    enjoy bringing ideas to life in the browser.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                           <ul>
+                            <li><span>Web Development</span><br>Web App Developement</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                           </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                         <li><span>2020-2024</span><br>Technical Lead in CSI Club at SRM 
+                            Institute of Science and Technology</li> 
+                         <li><span>Sept'23-Oct'23</span><br>Data Science Intern at Code Clause</li>
+                         <li><span>2022-2024</span><br>Lead in ISTE Club at SRM 
+                            Institute of Science and Technology</li>
+                        </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                     <li><span>2024</span><br>Btech in Computer Science Engineering 
+                    from SRM Institute of Science and Technology</li>
+                     <li><span>2020</span><br>CBSE, Class 12th From MBS International 
+                    School</li>
+                     <li><span>2018</span><br>CBSE, Class 10th from DAV Public School</li>
+                    </ul>
+             </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------services--------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Developement</h2>
+                <p>Developed a quiz app in which you can answer multiple choice 
+                    questions and at the end of the quiz you can see your
+                     performance.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+           </i><h2></i>Technical lead</h2>
+                <p> Organized and managed a global hackathon, coordinating
+                     participating from over 10 countries, demonstratinge
+                      effective project planning and execuation skills.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developement</h2>
+                <p>Developed a website which detects the remours and fake news
+                with machine leaning algorithm and natural language processing</p>
+                    <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+ </div>
+
+   <!-- ---------portfolio--------- -->
+
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Quiz App</h3>
+                    <p>You can participate in the quiz and see your performance</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connetct you to the best musics in the world</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>You will find the best product with the best quality</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+ <!-- ------------contact----------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>rajsinghrishabh6@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8178803075</p>
+            <div class="social-icons">
+               <a href="https://facebook.com/profile.php?id=100013608541467&sk=about"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://x.com/Rishabh66806243"><i class="fa-brands fa-twitter-square"></i></a>
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/rishabh-raj-034215146/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Rishabh's Resume.pdf" download class="btn btn2">Download CV</a> 
+          </div>
+          <div class="contact-right">
+            <form>
+                 <input type="text" name="Name" placeholder="Your Name" required>
+                 <input type="email" name="email" placeholder="Your Email" required>
+                 <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                 <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Rishabh Made <i class="fa-solid fa-heart"></i> with by Rishabh Raj</p>
+        </div>
+    </div>
+  </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+</body>
+</html>
